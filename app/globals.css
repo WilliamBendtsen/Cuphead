@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Cuphead Felix";
+  src: url(../app/fonts/CupheadFelix-Regular-merged.ttf);
+}
+
+@font-face {
+  font-family: "Cuphead Henriette";
+  src: url(../app/fonts/CupheadHenriette-A-merged.ttf);
+}
+
+@font-face {
+  font-family: "Cuphead Memphis";
+  src: url(../app/fonts/CupheadMemphis-Medium-merged.ttf);
+}
+
+@font-face {
+  font-family: "Cuphead Poster";
+  src: url(../app/fonts/CupheadPoster-Regular\(Cyr_Lat_English\).ttf);
+}
+
+@font-face {
+  font-family: "Cuphead Vogue Bold";
+  src: url(../app/fonts/CupheadVogue-Bold-merged.ttf);
+}
+
+@font-face {
+  font-family: "Cuphead Vogue Extra Bold";
+  src: url(../app/fonts/CupheadVogue-ExtraBold-merged.ttf);
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

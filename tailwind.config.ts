@@ -12,6 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        custom: [
+          "CupheaedFelix",
+          "CupheadHenriette",
+          "CupheadMemphis",
+          "CupheadPoster",
+          "CupheadVogue",
+        ],
+      },
     },
   },
   plugins: [],
