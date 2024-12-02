@@ -1,7 +1,9 @@
+import "../globals.css";
+
 export default function Store() {
   return (
     <div>
-      <p>Here you go!</p>
+      <p className="">Here you go!</p>
     </div>
   );
 }
