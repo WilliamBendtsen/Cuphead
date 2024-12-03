@@ -1,30 +1,11 @@
-import MultiLayeredParallax from "../components/multilayeredparallax"
+import Baroness from "../components/Baroness"
 
 
 export default function CupheadVerse() {
     return (
         <main>
-            <h1>
-                Cuphead verse!
-            </h1>
-            <MultiLayeredParallax />
-            <div className="w-full bg-black flex justify-center">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde perferendis odit labore enim, commodi veritatis debitis sunt architecto, est fuga cupiditate aliquam nostrum libero nesciunt adipisci laudantium porro at.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde perferendis odit labore enim, commodi veritatis debitis sunt architecto, est fuga cupiditate aliquam nostrum libero nesciunt adipisci laudantium porro at.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde perferendis odit labore enim, commodi veritatis debitis sunt architecto, est fuga cupiditate aliquam nostrum libero nesciunt adipisci laudantium porro at.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde perferendis odit labore enim, commodi veritatis debitis sunt architecto, est fuga cupiditate aliquam nostrum libero nesciunt adipisci laudantium porro at.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde perferendis odit labore enim, commodi veritatis debitis sunt architecto, est fuga cupiditate aliquam nostrum libero nesciunt adipisci laudantium porro at.
-                </p>
-            </div>
+            <h1 className="text-7xl text-black text-center my-9 p-9">Welcome to the Cupverse!</h1>
+            <Baroness />
         </main>
     )
 }
