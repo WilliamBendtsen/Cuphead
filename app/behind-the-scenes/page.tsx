@@ -1,10 +1,12 @@
-import MakingOfMusic from "../components/MakingOfMusic"
+import BehindTheScenesVideos from "../components/BehindTheScenesVideo"
 
 export default function BehindTheScenes() {
     return (
         <div>
-            <h1>Here goes behind the scenes</h1>
-            <MakingOfMusic />
+            <BehindTheScenesVideos />
+            <BehindTheScenesVideos />
+            <BehindTheScenesVideos />
+            <BehindTheScenesVideos />
         </div>
     )
 }
