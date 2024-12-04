@@ -47,7 +47,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-72 pb-1 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4"
+              className="absolute bottom-72 pb-1 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               style={{ left: "calc(675px)" }}
               src="/img/mugman-marching.png"
               alt="Mugman Marching"
@@ -72,7 +72,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-72 pb-5 left-60 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4"
+              className="absolute bottom-72 pb-5 left-60 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               style={{ left: "calc(500px)" }}
               src="/img/ms-chalice.png"
               alt="Ms. Chalice"
@@ -96,7 +96,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-72 pb-5 left-60 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:shadow-glow"
+              className="absolute bottom-72 pb-5 left-60 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               src="/img/cuphead-&-mugman.png"
               alt="Cuphead & Mugman"
               width={200}

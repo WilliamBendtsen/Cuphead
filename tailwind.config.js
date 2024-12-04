@@ -7,8 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    boxShadow: {
-      glow: "0 0 20px 5px rgba(255, 255, 0, 0.7)",
+    filter: ["responsive", "hover", "focus"],
+    dropShadow: {
+      glow: "0 0 20px rgba(255, 255, 255, 1)",
     },
     keyframes: {
       slideUp: {
