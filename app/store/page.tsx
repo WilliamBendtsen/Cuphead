@@ -25,7 +25,7 @@ export default function Store() {
 
         {/* Porkrind Character Model */}
         <Image
-          className="absolute bottom-72 pb-5 right-48 z-40"
+          className="absolute bottom-[36%] right-[12%] z-40"
           src="/img/porkrind.png"
           alt="Porkrind"
           width={400}
@@ -35,7 +35,7 @@ export default function Store() {
         {/* Mugman Marching Character Model +  Sheet Music Popup */}
         <div className="group">
           <Image
-            className="absolute bottom-14 left-56 z-10 transition-all group-hover:z-20"
+            className="absolute bottom-[8%] left-[15%] z-10 transition-all group-hover:z-20"
             src="/img/porkrind-sheet-music-picture.png"
             alt="Sheet Music Picture"
             width={500}
@@ -47,8 +47,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-72 pb-1 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
-              style={{ left: "calc(675px)" }}
+              className="absolute bottom-1/3 right-[40%] z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               src="/img/mugman-marching.png"
               alt="Mugman Marching"
               width={200}
@@ -60,7 +59,7 @@ export default function Store() {
         {/* Ms. Chalice Character Model +  DLC Popup */}
         <div className="group">
           <Image
-            className="absolute bottom-14 left-56 z-10 transition-all group-hover:z-20"
+            className="absolute bottom-[8%] left-[15%] z-10 transition-all group-hover:z-20"
             src="/img/porkrind-dlc-picture.png"
             alt="DLC Picture"
             width={500}
@@ -72,8 +71,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-72 pb-5 left-60 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
-              style={{ left: "calc(500px)" }}
+              className="absolute bottom-1/3 pb-[1%] left-[33%] z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               src="/img/ms-chalice.png"
               alt="Ms. Chalice"
               width={150}
@@ -85,7 +83,7 @@ export default function Store() {
         {/* Cuphead & Mugman Character Models + Main Game Popup */}
         <div className="group">
           <Image
-            className="absolute bottom-14 left-56 z-10 transition-all group-hover:z-20"
+            className="absolute bottom-[8%] left-[15%] z-10 transition-all group-hover:z-20"
             src="/img/porkrind-main-game-picture.png"
             alt="Main Game Picture"
             width={500}
@@ -96,7 +94,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-72 pb-5 left-60 z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
+              className="absolute bottom-1/3 pb-5 left-[15%] z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               src="/img/cuphead-&-mugman.png"
               alt="Cuphead & Mugman"
               width={200}
@@ -107,7 +105,7 @@ export default function Store() {
 
         {/* "Choose Your Character" Image */}
         <Image
-          className="absolute bottom-16 left-56 z-10"
+          className="absolute bottom-[8%] left-[15%] z-10"
           src="/img/choose-your-character.png"
           alt="Choose Your Character"
           width={500}
