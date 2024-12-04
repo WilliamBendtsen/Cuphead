@@ -1,11 +1,10 @@
 import Image from "next/image";
-import BaronessImage from "../../public/img/baroness-image.png"
 
 export default function Baroness() {
     return (
         <div className="flex justify-center items-center h-full">
             <Image
-             src={BaronessImage} alt="Evil Baroness" width={400} height={400} 
+             src="/img/baroness-image.png" alt="Evil Baroness" width={400} height={400} 
              className="w-full h-auto"
              />
              <p className="absolute w-1/2 text-4xl text-white bg-slate-800 bg-opacity-30 p-5 rounded-3xl top-50 left-12">Baroness Von Bon Bon is the eccentric candy queen of Sugarland in the Cuphead-verse, 
