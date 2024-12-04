@@ -1,5 +1,3 @@
-const { transform } = require("typescript");
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,20 +6,29 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      keyframes: {
-        "slide-up": {
-          "0%": {
-            transform: "translate3d(0, 0, 0)",
-          },
-          "100%": {
-            transform: "translate3d(0, -50%, 0)",
-          },
-        },
+    extend: {},
+    boxShadow: {
+      glow: "0 0 20px 5px rgba(255, 255, 0, 0.7)",
+    },
+    keyframes: {
+      slideUp: {
+        "0%": { transform: "translateY(0)" },
+        "100%": { transform: "translateY(-30%)" },
       },
-      animation: {
-        slideup: "slide-up 1s",
+      slideDown: {
+        "0%": { transform: "translateY(-30%)" },
+        "100%": { transform: "translateY(0)" },
       },
+    },
+    animation: {
+      slideUp: "slideUp 0.7s ease-in-out",
+      slideDown: "slideDown 0.7s ease-in-out",
+    },
+    transitionTimingFunction: {
+      "ease-in-out": "ease-in-out",
+    },
+    transitionDuration: {
+      500: "0.5s",
     },
   },
   plugins: [],
