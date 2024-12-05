@@ -12,9 +12,15 @@ export default function Nav() {
           height={200}
         />
       </Link>
-      <Link href="/store">STORE</Link>
-      <Link href="/cuphead-verse">CUPHEAD-VERSE</Link>
-      <Link href="/behind-the-scenes">BEHIND THE SCENES</Link>
+      <Link className="text-2xl font-extrabold" href="/store">
+        STORE
+      </Link>
+      <Link className="text-2xl font-extrabold" href="/cuphead-verse">
+        CUPHEAD-VERSE
+      </Link>
+      <Link className="text-2xl font-extrabold" href="/behind-the-scenes">
+        BEHIND THE SCENES
+      </Link>
     </nav>
   );
 }
