@@ -10,7 +10,6 @@ export default function BehindTheScenes() {
             <BehindTheScenesVideos />
             <CupheadTrailer />
             <CupheadDlcTrailer />
-            <h1>This is a branch test</h1>
         </div>
     )
 }
