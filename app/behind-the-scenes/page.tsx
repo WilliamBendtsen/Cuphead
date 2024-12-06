@@ -1,5 +1,3 @@
-"user server"
-
 import BehindTheScenesVideos from "../components/BehindTheScenesVideo"
 import BehindTheScenesMusic from "../components/BehindTheScenesMusic"
 import CupheadTrailer from "../components/CupheadTrailer"
