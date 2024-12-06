@@ -56,7 +56,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-1/3 left-[48%] z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
+              className="absolute bottom-1/3 left-[48%] z-40 group-hover:scale-110 transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               src="/img/mugman-marching.png"
               alt="Mugman Marching"
               width={200}
@@ -83,7 +83,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-1/3 pb-[1%] left-[37%] z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
+              className="absolute bottom-1/3 pb-[1%] left-[37%] z-40 group-hover:scale-110 transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               src="/img/ms-chalice.png"
               alt="Ms. Chalice"
               width={150}
@@ -109,7 +109,7 @@ export default function Store() {
             className="group"
           >
             <Image
-              className="absolute bottom-1/3 pb-5 left-[20%] z-40 group-hover:scale-110 transform transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
+              className="absolute bottom-1/3 pb-5 left-[20%] z-40 group-hover:scale-110 transition-transform duration-500 ease-in-out hover:-translate-y-1/4 group-hover:drop-shadow-glow"
               src="/img/cuphead-&-mugman.png"
               alt="Cuphead & Mugman"
               width={200}
