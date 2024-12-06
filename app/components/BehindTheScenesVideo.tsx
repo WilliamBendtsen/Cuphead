@@ -1,6 +1,8 @@
-export default function BehindTheScenesVideos() {
+"use server"
+
+export default async function BehindTheScenesVideos() {
     return (
-        <div className="bg-stone-500 bg-opacity-30 p-5 m-10 rounded-2xl w-full sm:w-3/4 m-4 md:w-2/3 lg:w-1/3 flex items-center flex-col">
+        <div className="bg-stone-500 bg-opacity-30 p-5 m-10 rounded-2xl w-full hover:scale-105 sm:w-3/4 m-4 md:w-2/3 lg:w-1/3 flex items-center flex-col transition-transform duration-500 ease-in-out">
         <h1 className="text-2xl pb-3 text-white">Making of Cuphead!</h1> 
         <iframe
             src="https://www.youtube.com/embed/wRRV7TIQTX0?si=4KgMLHJrYWCXAOAs"
