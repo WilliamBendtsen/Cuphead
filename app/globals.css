@@ -7,9 +7,17 @@
   src: url(../app/fonts/CupheadFelix-Regular-merged.ttf);
 }
 
+.font-cuphead-felix {
+  font-family: "Cuphead Felix", sans-serif;
+}
+
 @font-face {
   font-family: "Cuphead Henriette";
   src: url(../app/fonts/CupheadHenriette-A-merged.ttf);
+}
+
+.font-cuphead-henriette {
+  font-family: "Cuphead Henriette", sans-serif;
 }
 
 @font-face {
@@ -17,9 +25,17 @@
   src: url(../app/fonts/CupheadMemphis-Medium-merged.ttf);
 }
 
+.font-cuphead-memphis {
+  font-family: "Cuphead Memphis", sans-serif;
+}
+
 @font-face {
   font-family: "Cuphead Poster";
   src: url(../app/fonts/CupheadPoster-Regular\(Cyr_Lat_English\).ttf);
+}
+
+.font-cuphead-poster {
+  font-family: "Cuphead Poster", sans-serif;
 }
 
 @font-face {
@@ -27,11 +43,33 @@
   src: url(../app/fonts/CupheadVogue-Bold-merged.ttf);
 }
 
+.font-cuphead-vogue-bold {
+  font-family: "Cuphead Vogue Bold", sans-serif;
+}
+
 @font-face {
   font-family: "Cuphead Vogue Extra Bold";
   src: url(../app/fonts/CupheadVogue-ExtraBold-merged.ttf);
 }
 
+.font-cuphead-vogue-extra-bold {
+  font-family: "Cuphead Vogue Extra Bold", sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
 body {
-  font-family: "Cuphead Vogue";
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Cuphead Vogue", sans-serif;
 }

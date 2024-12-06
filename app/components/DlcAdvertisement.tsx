@@ -5,7 +5,7 @@ export default function DlcAdvertisement() {
   return (
     <section className="flex flex-col items-center gap-y-[5vh] mt-[10vh]">
       {/* Title Text */}
-      <h1 className="text-4xl text-center font-extrabold">
+      <h1 className="text-4xl text-center font-cuphead-vogue-extra-bold">
         Meet Ms Chalice in the new DLC!
       </h1>
 
