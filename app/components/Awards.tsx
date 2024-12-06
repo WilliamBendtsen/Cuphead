@@ -9,7 +9,6 @@ export default function Awards() {
         alt="Awards Title"
         width={200}
         height={0}
-        sizes="100vw"
       />
 
       <div className="flex w-full justify-center gap-[5vw]">
