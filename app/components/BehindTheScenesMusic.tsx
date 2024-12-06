@@ -1,4 +1,6 @@
-export default function BehindTheScenesMusic() {
+"use server"
+
+export default async function BehindTheScenesMusic() {
     return (      
         <div className="bg-stone-500 bg-opacity-30 p-5 m-10 rounded-2xl w-full sm:w-3/4 m-4 md:w-2/3 lg:w-1/3 flex items-center flex-col">
         <h1 className="text-2xl pb-3 text-white">The making of Cuphead tunes!</h1> 
