@@ -8,7 +8,7 @@ export default function CupheadVerse() {
     return (
         <main>
             <h1 className="text-zinc-800 text-center my-9 p-9 text-4xl sm:text-5xl lg:text-7xl">Welcome to the Cupverse!</h1>
-            <h2 className="text-zinc-800 text-center my-9 p-9 text-3xl sm:text-4xl lg:text-5xl">Evil Baroness</h2>
+            <h2 className="text-zinc-800 text-center my-9 p-9 text-3xl sm:text-4xl lg:text-5xl">Baroness Von Bon Bon</h2>
             <Baroness />
             <h2 className="text-zinc-800 text-center my-9 p-9 text-3xl sm:text-4xl lg:text-5xl">Cuphead and Mugman</h2>
             <CupheadMugmanImage />
