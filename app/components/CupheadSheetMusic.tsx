@@ -1,13 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 
+interface CupheadSheetMusicProps {
+  title: string;
+  link: string;
+  availableNow: string;
+  image: string;
+  linkText: string;
+}
+
 export default function CupheadSheetMusic({
   title,
   link,
   availableNow,
   image,
   linkText,
-}) {
+}: CupheadSheetMusicProps) {
   return (
     <section className="bg-blue-300 w-full  h-[40vh] grid grid-cols-2 grid-rows-3">
       {/* Title */}

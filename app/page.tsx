@@ -3,6 +3,16 @@ import DlcAdvertisement from "./components/DlcAdvertisement";
 import DlcTrailer from "./components/DlcTrailer";
 import Awards from "./components/Awards";
 
+export interface AcfData {
+  MsChaliceTitle: string;
+  MsChaliceImage: string;
+  buybtn: string;
+}
+
+export interface Post {
+  acf: AcfData;
+}
+
 export default async function Home() {
   const response = await fetch(
     "http://cuphead.williamskodeeventyr.dk/wp-json/wp/v2/frontpage?acf_format=standard"
@@ -30,7 +40,7 @@ export default async function Home() {
         />
         <DlcTrailer title={acf.DlcTrailerTitle} video={acf.DlcTrailerVideo} />
         <Awards
-          awardTitle={acf.awardTitle}
+          awardsTitle={acf.awardsTitle}
           award1={acf.award1}
           award2={acf.award2}
           award3={acf.award3}

@@ -1,4 +1,9 @@
-export default function DlcTrailer({ title, video }) {
+interface DlcTrailerProps {
+  title: string;
+  video: string;
+}
+
+export default function DlcTrailer({ title, video }: DlcTrailerProps) {
   return (
     <section className="flex flex-col items-center gap-[5vh]">
       <h2 className="text-center text-3xl">{title}</h2>

@@ -1,7 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function DlcAdvertisement({ title, image, buttonText }) {
+interface DlcAdvertisementProps {
+  title: string;
+  image: string;
+  buttonText: string;
+}
+
+export default function DlcAdvertisement({
+  title,
+  image,
+  buttonText,
+}: DlcAdvertisementProps) {
   return (
     <section className="flex flex-col items-center gap-y-[5vh] mt-[10vh]">
       {/* Title Text */}
