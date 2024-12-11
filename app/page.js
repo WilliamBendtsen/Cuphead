@@ -24,11 +24,22 @@ export default async function Home() {
         <CupheadSheetMusic
           title={acf.SheetMusicTitle}
           link={acf.SheetMusicLink}
+          linkText={acf.SheetMusicLinkText}
           availableNow={acf.AvailableNow}
           image={acf.MarchingBand}
         />
-        <DlcTrailer />
-        <Awards />
+        <DlcTrailer title={acf.DlcTrailerTitle} video={acf.DlcTrailerVideo} />
+        <Awards
+          awardTitle={acf.awardTitle}
+          award1={acf.award1}
+          award2={acf.award2}
+          award3={acf.award3}
+          award4={acf.award4}
+          award5={acf.award5}
+          award6={acf.award6}
+          award7={acf.award7}
+          award8={acf.award8}
+        />
       </main>
     </div>
   );

@@ -6,6 +6,7 @@ export default function CupheadSheetMusic({
   link,
   availableNow,
   image,
+  linkText,
 }) {
   return (
     <section className="bg-blue-300 w-full  h-[40vh] grid grid-cols-2 grid-rows-3">
@@ -17,10 +18,10 @@ export default function CupheadSheetMusic({
       {/* Website Link */}
       <Link
         className="w-fit justify-self-center text-center text-6xl font-extrabold text-purple-800 hover:text-purple-950 col-start-1 row-start-2 self-center"
-        href="https://cupheadnotes.com/"
+        href={link}
         target="_blank"
       >
-        <p className="">{link}</p>
+        <p>{linkText}</p>
       </Link>
 
       {/* Available Now */}
