@@ -1,12 +1,8 @@
-"use client"
+"use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
-import topdivider from "../../public/img/top-divider.png";
-import bottomdivider from "../../public/img/bottom-divider.png";
 import midground from "../../public/img/mid-ground.png";
-import background from "../../public/img/background.png";
-
 
 export default function MultiLayerParallax() {
   const ref = useRef(null);
