@@ -25,7 +25,7 @@ export default function DlcAdvertisement({
       {/* Buy Now Button */}
       <Link
         target="_blank"
-        href="https://www.nintendo.com/us/store/products/cuphead-and-the-delicious-last-course-switch/"
+        href="/404"
         className="w-[10vw] h-[5vh] bg-purple-800 hover:bg-purple-950 text-white font-extrabold rounded inline-flex items-center justify-center"
       >
         {buttonText}
