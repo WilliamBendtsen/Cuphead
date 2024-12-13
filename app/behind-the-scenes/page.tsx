@@ -10,7 +10,7 @@ export default function BehindTheScenes() {
     <>
       <div className="my-9 text-center flex items-center flex-col justify-center mx-auto w-full lg:w-1/2">
         <h1 className="text-6xl pb-3 text-zinc-800">
-          Explore the Making of Last of us 2
+          Explore the Making of Cuphead!
         </h1>
         <p className="text-lg text-center py-2 text-zinc-800">
           Discover the artistry and dedication that brought Cuphead to life.
