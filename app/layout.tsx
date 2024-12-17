@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Fanmade School Cuphead project",
   description:
-    "This is a school exam project about Cuphead. We hold no rights to Cuphead; this is purely for educational purposes and developer practice.",
+    "This is a school exam project about Cuphead. We hold no rights to Cuphead; this is purely forS educational purposes and developer practice.",
   metadataBase: new URL("https://cuphead-mmd.vercel.app"),
   keywords: [
     "Cuphead",
@@ -31,6 +31,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/img/favicon-16x16.png"
+        />
+      </head>
       <body>
         <Nav />
         {children}
