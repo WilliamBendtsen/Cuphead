@@ -7,6 +7,7 @@ export interface AcfData {
   MsChaliceTitle: string;
   MsChaliceImage: string;
   buybtn: string;
+  gif: string;
 }
 
 export interface Post {
@@ -30,6 +31,7 @@ export default async function Home() {
           title={acf.MsChaliceTitle}
           image={acf.MsChaliceImage}
           buttonText={acf.buybtn}
+          gif={acf.CupheadRunningGif}
         />
         <CupheadSheetMusic
           title={acf.SheetMusicTitle}
